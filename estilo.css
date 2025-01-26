@@ -1,0 +1,140 @@
+/*eslizações globais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+.secao{
+    padding: 120px 80px;
+    width: 100%;
+}
+.largura{
+    max-width: 800px;
+    margin: 0 auto 50px;
+} 
+/*fim das estilizações globais*/
+
+/*estilo 1ª seção* inciando pelo banner e slogan*/
+.banner-topo{
+    background: url('img/banner-topo.jpg') center no-repeat;
+    background-size: cover;
+}
+.container-slogan{
+    max-width: 250px;
+    color:#3c184e;
+}
+.paragrafo-logo{
+    font-size:35px;
+    margin-bottom: 0 0 5px 0;
+}
+.paragrafo-logo img{
+    margin-right: 5px;
+    width: 30px;
+}
+.slogan{
+    font-size:14px
+}
+/*estilo do "container-titulo" ainda da 1ª seção*/
+.container-titulo{
+    max-width:1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color:#ffffffc4;
+    box-shadow: 0 8px 32px  #1f26875e;
+}
+h1{
+    font-size:60px;
+    color:#3c184e;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+.container-titulo p{
+    width: 200px;
+    padding:10px 25px;
+    margin:0 auto;
+    border-radius: 10px;
+    background-color:#3c184e;
+    font-size:20px; 
+}
+.container-titulo a{
+    color:#fff;
+}
+.container-titulo img{
+    width:20px;
+}
+.container-titulo p:hover{
+    background-color:rgb(114, 196, 114);
+    width: 200px;
+}
+/*Fim da estilização da 1ª seção banner e topo*/
+
+/*estilo-2ª seção= informação e serviços*/
+h2, .container-localizaçao p{
+    font-size: 36px;
+    color: #3c184e;
+    margin:0 0 45px ;
+}
+li{
+    color: #3c184e;
+    font-size:20px;
+    margin: 0 0 20px 0; 
+    text-align: justify; 
+   
+}
+.txt-destaque{ 
+    font-style: italic;
+    font-weight: 700;
+}
+.sombreado{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+/*fim da estilização da 2ª seção*/
+
+/*estilo da seções faixas e fundo destacado*/
+.faixa-destaque{
+    background-color:  #3C184E;
+    font-size: 40px;
+    color:#fff;
+}
+.links-redes a {
+    margin: auto 20px;
+}
+.links-redes img{
+    width: 50px;
+    height: 50px;
+}
+.links-redes img:hover{
+  width:55px;
+  height:55px;
+  background-color: rgb(114, 196, 114);
+  border-radius: 20px;
+}
+/*fim da estilização das faixas*/
+
+/*estilização da seção das marcas*/
+.largura img{
+    width: 148px;
+    height:148px;
+    margin:0 15px
+}
+/*fim da seção marcas*/
+
+/*inicio da estilização da seção localização da empresa*/
+.container-localizaçao p{
+    font-size: 20px;
+}
+/*fim da estilização da seção*/
+
+/*rodape*/
+.rodape{
+    padding: 10px 0;
+    font-size: 12px;
+    color:#fff;
+}
+
